@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+/*-------------------
+       Fonts
+--------------------*/
+$fontSmoothing     : antialiased;
+
+$defaultFontName:   'Lato';
+$pageFont          : $defaultFontName, 'Helvetica Neue', Arial, Helvetica, sans-serif !default;
+
+//$googleFontName    : $defaultFontName;
+//$importGoogleFonts : true;
+//$googleFontSizes   : '100,300,400,700,900,100italic,300italic,400italic,700italic,900italic';
+//$googleSubset      : 'latin';
+//
+//$googleProtocol    : 'https://';
+//$googleFontRequest : '#{$googleFontName}:#{$googleFontSizes}&subset=#{$googleSubset}';
+
+//@import url('#{$googleProtocol}fonts.googleapis.com/css?family=#{$googleFontRequest}');
+//https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic&subset=latin
+
+// Default iOS fonts
+$iosFont: 'Helvetica Neue', Helvetica, 'Lato', Arial, sans-serif;
+$ios9DisplayFont: "SF UI Display", "Helvetica Neue", Helvetica, "Lato", Arial, sans-serif;
+$ios9TextFont: "SF UI Text", "Helvetica Neue", Helvetica, "Lato", Arial, sans-serif;
+
+/*-------------------
+      Base Sizes
+--------------------*/
+$emSize:                        16px;
+$emSizeAsNumber:                $emSize / 1px;
+
+$baseFontSize:                  $emSize;
+
+// Border width
+$qyHairlinesBorderWidth:        .55px;
+$qyDefaultBorderWidth:          1px;
+
+
+
+
+
+
+/*-------------------
+    Colors
+--------------------*/
+$primaryTextColor:    #333333; // #403C3D
+$secondaryTextColor:  #666666; // #727476
+$lightTextColor:      #888888; // form elements // #9E9EA4
+$veryLightTextColor:  #9e9ea4; // input placeholders //#B2B2B2 //#9e9ea4 //BFC0C3
+
+$headerTextColor:     #55545a; // #55545A
+
+// empty state text colors
+$emptyStateTextColor: $veryLightTextColor; // empty state descriptions
+
+// disabled input field color
+$disabledInputTextColor: $veryLightTextColor;
+
+// link text colors
+$linkColor:           #428bca; // #0088CC
+$linkHoverColor:      #2a6496; // #439FE0
+
+// different shades of white
+$fullWhiteColor:      #ffffff;
+$qhiteColor:          #f9fafb;
+$darkWhiteColor:      #f4f5f6;
+
+// border and wireframe color
+$borderColor:         #d5d3d5;
+$wireframeColor:      #e3e4e5;
+
+// blacks
+$fullBlackColor:      #000000;
+$blackColor:          #1b1c1d;
+
+
+
+/*-------------------
+    Emotive Colors
+--------------------*/
+
+/* Positive */
+$positiveColor           : #21ba45;
+$positiveBackgroundColor : #fcfff5;
+$positiveBorderColor     : #a3c293;
+$positiveHeaderColor     : #1a531b;
+$positiveTextColor       : #1d571e;
+
+/* Negative */
+$negativeColor           : #db2828;
+$negativeBackgroundColor : #fff6f6;
+$negativeBorderColor     : #e0b4b4;
+$negativeHeaderColor     : #912d2b;
+$negativeTextColor       : #922d2b;
+
+$qyErrorTextColor: #a94442;
+
+/* Info */
+$infoColor              : #31ccec;
+$infoBackgroundColor    : #f8ffff;
+$infoBorderColor        : #9ecad3;
+$infoHeaderColor        : #0E566c;
+$infoTextColor          : #0E566d;
+
+/* Warning */
+$warningColor           : #f2C037;
+$warningBorderColor     : #c9ba9b;
+$warningBackgroundColor : #fffaf3;
+$warningHeaderColor     : #794b02;
+$warningTextColor       : #664917;
+
+
+/*-------------------
+      Disabled
+--------------------*/
+
+$disabledOpacity: 0.45;
+$disabledTextColor: rgba(40, 40, 40, 0.3);
+$invertedDisabledTextColor: rgba(225, 225, 225, 0.3);
+
+
+
+// Base
+// -------------------------------
+
+//$font-family-sans-serif:          "Lato", "Helvetica Neue", "Roboto", "Segoe UI", sans-serif !default;
+//$font-family-light-sans-serif:    "Lato-Light", "HelveticaNeue-Light", "Roboto-Light", "Segoe UI-Light", sans-serif-light !default;
+//$font-family-sans-serif:          $pageFont !default;
+//$font-family-light-sans-serif:    $pageFont !default;
+//$font-family-serif:               serif !default;
+//$font-family-monospace:           monospace !default;
+//
+//$font-family-base:                $font-family-sans-serif !default;
+//$font-size-base:                  $baseFontSize !default;
+//$font-size-large:                 16px !default;
+//$font-size-small:                 12px !default;
+//
+//$font-weight-base:                400 !default;
+//$font-weight-thin:                100 !default;
+//$font-weight-light:               300 !default;
+//$font-weight-bold:                700 !default;
+//$font-weight-ultra-bold:          900 !default;
+//
+//$line-height-base:                1.428571429 !default; // 20/14
+//$line-height-computed:            floor($font-size-base * $line-height-base) !default; // ~20px // 22px
+//$line-height-large:               1.33 !default;
+//$line-height-small:               1.5 !default;
+//
+//$headings-font-family:            $headerFont !default;
+//$headings-font-weight:            700 !default; // 900
+//$headings-line-height:            1.2 !default;
+//
+//$base-background-color:           $qyBGColor !default;
+//$base-color:                      $qyPrimaryTextColor !default;
+
+
+/*-------------------
+     Brand Colors
+--------------------*/
+
+$facebookColor:         #3b5998;
+$facebookActiveColor:   #253964;
+$twitterColor:          #0084b4;
+$googlePlusColor:       #dc4a38;
+$googlePlusActiveColor: #c53829;
+$linkedInColor:         #1f88be;
+$youtubeColor:          #cc181e;
+$instagramColor:        #49769c;
+$pinterestColor:        #00aced;
+$vkColor:               #4d7198;
