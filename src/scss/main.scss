@@ -3,6 +3,11 @@
 // import variables
 @import 'variables';
 
+@import 'mixins';
+@import 'easings';
+
+@import 'atomic';
+
 @import 'colors';
 @import 'helpers';
 @import 'typography';
