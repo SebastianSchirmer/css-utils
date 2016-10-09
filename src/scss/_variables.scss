@@ -27,8 +27,8 @@ $ios9TextFont: "SF UI Text", "Helvetica Neue", Helvetica, "Lato", Arial, sans-se
 /*-------------------
       Base Sizes
 --------------------*/
-$emSize:                        16px;
-$emSizeAsNumber:                $emSize / 1px;
+$emSize:                    16px;
+$emSizeAsNumber:            $emSize / 1px;
 
 $baseFontSize:                  $emSize;
 
@@ -38,6 +38,48 @@ $qyDefaultBorderWidth:          1px;
 
 
 
+/*-------------------
+      Text Sizes
+--------------------*/
+$miniMiniMiniMiniSize        : 7 / $emSizeAsNumber;
+$miniMiniMiniSize        : 8 / $emSizeAsNumber;
+$miniMiniSize        : 9 / $emSizeAsNumber;
+$miniSize        : 10 / $emSizeAsNumber;
+$tinySize        : 12 / $emSizeAsNumber;
+$smallSize       : 13 / $emSizeAsNumber;
+$mediumSize      : 14 / $emSizeAsNumber;
+$averageSize     : 15 / $emSizeAsNumber;
+$normalSize      : 16 / $emSizeAsNumber;
+$bitlargerSize   : 18 / $emSizeAsNumber;
+$largeSize       : 20 / $emSizeAsNumber;
+$largerSize      : 24 / $emSizeAsNumber;
+$bigSize         : 28 / $emSizeAsNumber;
+$hugeSize        : 38 / $emSizeAsNumber;
+$massiveSize     : 50 / $emSizeAsNumber;
+$elephantSize    : 64 / $emSizeAsNumber;
+$dinoSize        : 80 / $emSizeAsNumber;
+$jumboSize       : 98 / $emSizeAsNumber;
+$incredibleSize  : 118 / $emSizeAsNumber;
+
+$miniMiniMiniMini: ($miniMiniMiniMiniSize * $emSizeAsNumber) / $emSizeAsNumber + rem;
+$miniMiniMini    : ($miniMiniMiniSize * $emSizeAsNumber) / $emSizeAsNumber + rem;
+$miniMini        : ($miniMiniSize * $emSizeAsNumber) / $emSizeAsNumber + rem;
+$mini            : ($miniSize * $emSizeAsNumber) / $emSizeAsNumber + rem;
+$tiny            : ($tinySize * $emSizeAsNumber) / $emSizeAsNumber + rem;
+$small           : ($smallSize * $emSizeAsNumber) / $emSizeAsNumber + rem;
+$medium          : ($mediumSize * $emSizeAsNumber) / $emSizeAsNumber + rem;
+$average         : ($averageSize * $emSizeAsNumber) / $emSizeAsNumber + rem;
+$normal          : ($normalSize * $emSizeAsNumber) / $emSizeAsNumber + rem;
+$bitlarger       : ($bitlargerSize * $emSizeAsNumber) / $emSizeAsNumber + rem;
+$large           : ($largeSize * $emSizeAsNumber) / $emSizeAsNumber + rem;
+$larger          : ($largerSize * $emSizeAsNumber) / $emSizeAsNumber + rem;
+$big             : ($bigSize * $emSizeAsNumber) / $emSizeAsNumber + rem;
+$huge            : ($hugeSize * $emSizeAsNumber) / $emSizeAsNumber + rem;
+$massive         : ($massiveSize * $emSizeAsNumber) / $emSizeAsNumber + rem;
+$elephant        : ($elephantSize * $emSizeAsNumber) / $emSizeAsNumber + rem;
+$dino            : ($dinoSize * $emSizeAsNumber) / $emSizeAsNumber + rem;
+$jumbo           : ($jumboSize * $emSizeAsNumber) / $emSizeAsNumber + rem;
+$incredible      : ($incredibleSize * $emSizeAsNumber) / $emSizeAsNumber + rem;
 
 
 

@@ -1,7 +1,124 @@
 @charset "UTF-8";
 
+// import variables
+@import 'variables';
+@import 'mixins';
+@import 'easings';
+
 .clearfix:after {
     content: '';
     display: table;
     clear: both;
 }
+
+
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.no-ellipsis {
+    overflow: auto;
+    text-overflow: initial;
+    white-space: normal;
+}
+
+
+.middotDivider {
+    padding-right: .45em;
+    padding-left: .45em;
+}
+
+.middotDivider:after {
+    content: '·'
+}
+
+
+
+
+
+
+
+
+
+
+.inline {
+    display: inline !important;
+}
+
+.inline-block {
+    display: inline-block !important;
+}
+
+.block {
+    display: block !important;
+}
+
+.center-block {
+    display: block !important;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pull-left {
+    float: left !important;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.hide {
+    display: none !important;
+}
+
+.show {
+    display: block !important;
+}
+
+.absolute {
+    position: absolute !important;
+}
+
+.relative {
+    position: relative !important;
+}
+
+.centered {
+    text-align: center;
+}
+
+.righted {
+    text-align: right;
+}
+
+.lefted {
+    text-align: left;
+}
+
+.stretch-h {
+    width: 100%;
+}
+
+.whitespace-nowrap {
+    white-space: nowrap !important;
+}
+
+.whitespace-preline {
+    white-space: pre-line !important;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.to-foreground {
+    z-index: 99;
+}
+
+.disabled {
+    cursor: default;
+    opacity: $disabledOpacity;
+}
+

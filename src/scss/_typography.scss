@@ -1,1 +1,101 @@
 @charset "UTF-8";
+
+// import variables
+@import 'variables';
+@import 'mixins';
+@import 'easings';
+
+/*
+$sizeTextMini        : 10px;
+$sizeTextTiny        : 12px;
+$sizeTextSmall       : 13px;
+$sizeTextMedium      : 14px;
+$sizeTextAverage     : 15px;
+$sizeTextNormal      : 16px;
+$sizeTextBitLarger   : 18px;
+$sizeTextLarge       : 20px;
+$sizeTextBig         : 24px;
+$sizeTextHuge        : 32px;
+$sizeTextMassive     : 48px;
+$sizeTextElephant    : 64px;
+$sizeTextDino        : 80px;
+$sizeTextJumbo       : 98px;
+$sizeTextIncredible  : 118px;
+*/
+
+// TEXT SIZES
+.text-mini-mini-mini-mini {
+    font-size: $miniMiniMiniMini !important;
+}
+
+.text-mini-mini-mini {
+    font-size: $miniMiniMini !important;
+}
+
+.text-mini-mini {
+    font-size: $miniMini !important;
+}
+
+.text-mini {
+    font-size: $mini !important;
+}
+
+.text-tiny {
+    font-size: $tiny !important;
+}
+
+.text-small {
+    font-size: $small !important;
+}
+
+.text-medium {
+    font-size: $medium !important;
+}
+
+.text-average {
+    font-size: $average !important;
+}
+
+.text-normal {
+    font-size: $normal !important;
+}
+
+.text-bitlarger {
+    font-size: $bitlarger !important;
+}
+
+.text-large {
+    font-size: $large !important;
+}
+
+.text-larger {
+    font-size: $larger !important;
+}
+
+.text-big {
+    font-size: $big !important;
+}
+
+.text-huge {
+    font-size: $huge !important;
+}
+
+.text-massive {
+    font-size: $massive !important;
+}
+
+.text-elephant {
+    font-size: $elephant !important;
+}
+
+.text-dino {
+    font-size: $dino !important;
+}
+
+.text-jumbo {
+    font-size: $jumbo !important;
+}
+
+.text-incredible {
+    font-size: $incredible !important;
+}

@@ -1,1 +1,81 @@
 @charset "UTF-8";
+
+// import variables
+@import 'variables';
+@import 'mixins';
+@import 'easings';
+
+/* ******************************* */
+/* TEXT COLORS */
+/* ******************************* */
+
+.qy-current-color {
+    color: currentColor !important;
+}
+
+.text-primary-color {
+    color: $primaryTextColor !important;
+}
+
+.text-secondary-color {
+    color: $secondaryTextColor !important;
+}
+
+.text-light-color {
+    color: $lightTextColor !important;
+}
+
+.text-very-light-color {
+    color: $veryLightTextColor !important;
+}
+
+.text-header-color {
+    color: $headerTextColor !important;
+}
+
+.text-white-color {
+    color: $fullWhiteColor !important;
+}
+
+.text-dark-white-color {
+    color: $darkWhiteColor !important;
+}
+
+.text-black-color {
+    color: $blackColor !important;
+}
+
+.text-positive-color {
+    color: $positiveColor !important;
+}
+
+.text-negative-color {
+    color: $negativeColor !important;
+}
+
+.text-link-color {
+    color: $linkColor !important;
+}
+
+/* ******************************* */
+/* BACKGROUND COLORS */
+/* ******************************* */
+.bg-transparent {
+    background-color: transparent;
+}
+
+.bg-white {
+    background-color: $fullWhiteColor;
+}
+
+.bg-black {
+    background-color: $fullBlackColor;
+}
+
+.bg-positive {
+    background-color: $positiveBackgroundColor;
+}
+
+.bg-negative {
+    background-color: $negativeBackgroundColor;
+}

@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+// import variables
+@import 'variables';
+@import 'mixins';
+@import 'easings';
+
 // **************************************************************************** //
 // ============================================================================ //
 // Custom atomic utility styles - Taken from https://github.com/nemophrost/atomic-css
