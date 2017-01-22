@@ -11,7 +11,7 @@
     clear: both;
 }
 
-
+// do not wrap, show ellipses instead
 .ellipsis {
     overflow: hidden;
     text-overflow: ellipsis;
@@ -24,7 +24,26 @@
     white-space: normal;
 }
 
+// don't break out text, helpful for e.g. long url's or user-generated content
+.dont-break-out {
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+// A small circle divider
 .middotDivider {
     padding-right: .45em;
     padding-left: .45em;
@@ -42,7 +61,7 @@
 
 
 
-
+// display
 .inline {
     display: inline !important;
 }
@@ -61,6 +80,7 @@
     margin-left: auto;
 }
 
+// float alignments
 .pull-left {
     float: left !important;
 }
@@ -69,6 +89,7 @@
     float: right !important;
 }
 
+// hide and show using display none / block
 .hide {
     display: none !important;
 }
