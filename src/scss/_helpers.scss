@@ -24,6 +24,7 @@
     white-space: normal;
 }
 
+// taken from here: https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container/
 // don't break out text, helpful for e.g. long url's or user-generated content
 .dont-break-out {
   /* These are technically the same, but use both */
