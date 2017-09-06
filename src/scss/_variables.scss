@@ -5,6 +5,10 @@
 --------------------*/
 $fontSmoothing     : antialiased;
 
+// see https://www.smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide/
+$systemFontStack: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+
+
 $defaultFontName:   'Lato';
 $pageFont          : $defaultFontName, 'Helvetica Neue', Arial, Helvetica, sans-serif !default;
 
