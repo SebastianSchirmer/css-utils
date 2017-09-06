@@ -4,6 +4,25 @@
 @import 'variables';
 @import 'easings';
 
+
+
+// Unit Calculation Function & Mixins
+// --------------------------------------------------
+
+// Convert a px value to a rem value
+@function covertPxToRem($pxSize) {
+    $remSize: $pxSize / $emSize;
+    @return $remSize * 1rem;
+}
+
+// Convert a rem value to a px value
+@function convertRemToPx($remSize) {
+    $pxSize: $remSize * $emSizeAsNumber / 1rem;
+    @return $pxSize * 1px;
+}
+
+
+
 // Transition Mixins
 // --------------------------------------------------
 
